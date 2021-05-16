@@ -1,0 +1,8 @@
+batch_size: 16
+learning_rate: 0.001
+early_stopping: True
+patience: 10
+max_epochs: 100
+model: "modules.models.unet"
+train_data: "./dataset/train_1024nfft_256hop_spectrogram.hdf5"
+test_data:  "./dataset/"

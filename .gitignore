@@ -1,0 +1,5 @@
+datasets/
+*.hdf5
+*.wav
+experiments/*/result/model*
+experiments/*/result/loss*
